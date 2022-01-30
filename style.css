@@ -1,0 +1,71 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    background-image: url("./image/olena-sergienko-6FdG9OL6JLI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+#status-el{
+    font-size: 40px;
+}
+
+button {
+    color: darkblue;
+    width: 150px;
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 800;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#player-el{
+    font-size: 20px;
+    background: #2CCDF9;
+    background: -webkit-linear-gradient(left, #2CCDF9, #060170);
+    background: -moz-linear-gradient(left, #2CCDF9, #060170);
+    background: linear-gradient(to right, #2CCDF9, #060170);
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+#endgame-el{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #player-el{
+        font-size: 10px;
+        width: 30%;
+        padding: 5px;
+        border-radius: 15px;
+
+    }
+    #status-el{
+        font-size: 20px;
+    }
+}
